@@ -5,13 +5,14 @@
   </picture>
 </h1>
 
-**A semantic business graph, defined in TypeScript.**
+**A typed, permission-aware model of your business data, defined in
+TypeScript.**
 
-Relate is an open-source toolkit for creating a shared, typed view of business
-data across APIs and databases. It brings identity, relationships,
-authorization, freshness, and provenance into one model so applications and AI
-agents can work with operational data through consistent interfaces, while
-source systems retain ownership.
+Relate lets you describe your business objects (customers, invoices, reviews),
+where each field comes from, how the objects relate and who may see what. Your
+application, and eventually your agents, then read across your CRM, billing
+database and other systems through one typed API. Every read is filtered for the
+caller and says where each value came from and how fresh it is.
 
 > [!WARNING]
 > Relate is at a very early stage and is not ready for use. It is published
